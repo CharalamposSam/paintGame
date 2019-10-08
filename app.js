@@ -34,8 +34,13 @@ let painting = false,
         } )
     } )
 
-canvas.width = 600
-canvas.height = 300
+if ( window.innerWidth > 600 ) {
+        canvas.width = 600
+        canvas.height = 300
+    } else {
+        canvas.width = window.innerWidth
+        canvas.height = window.innerWidth / 2
+    }
 
 function startPosition( e ) {
     painting = true
