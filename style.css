@@ -19,6 +19,7 @@ body {
           align-items: center;
   position: relative;
   background: #d7d7d7;
+  overflow: hidden;
 }
 
 canvas {
