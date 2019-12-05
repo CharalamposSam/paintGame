@@ -111,3 +111,5 @@ function drawM( e ) {
 canvas.addEventListener( 'touchstart', startPositionM )
 canvas.addEventListener( 'touchend', finishedPositionM )
 canvas.addEventListener( 'touchmove', drawM )
+
+alert(window.innerWidth)
